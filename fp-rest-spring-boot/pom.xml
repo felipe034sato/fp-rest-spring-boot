@@ -45,7 +45,8 @@
         <dependency>
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
-            <scope>runtime</scope> <!-- Scope diz que quando compilar essa dependency tem que ir junta -->
+            <version>8.4.0</version>
+            <scope>runtime</scope>
         </dependency>
 <!--        <dependency>-->
 <!--            <groupId>org.flywaydb</groupId>-->
